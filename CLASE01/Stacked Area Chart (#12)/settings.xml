@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="generateImage" type="xboolean" value="false"/>
+        <entry key="imageFormat" type="xstring" value="SVG"/>
+        <entry key="width" type="xint" value="800"/>
+        <entry key="height" type="xint" value="600"/>
+        <entry key="horizontalColumnV3" type="xstring" value="SINIESTROS"/>
+        <entry key="aggregationMethod" type="xstring" value="NONE"/>
+        <config key="frequencyColumnsV2">
+            <entry key="mode" type="xstring" value="MANUAL"/>
+            <config key="patternFilter">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="isCaseSensitive" type="xboolean" value="false"/>
+                <entry key="isInverted" type="xboolean" value="false"/>
+            </config>
+            <config key="manualFilter">
+                <config key="manuallySelected">
+                    <entry key="array-size" type="xint" value="2"/>
+                    <entry key="0" type="xstring" value="LESIONADOS"/>
+                    <entry key="1" type="xstring" value="FALLECIDOS"/>
+                </config>
+                <config key="manuallyDeselected">
+                    <entry key="array-size" type="xint" value="25"/>
+                    <entry key="0" type="xstring" value="Numero"/>
+                    <entry key="1" type="xstring" value="ANIO"/>
+                    <entry key="2" type="xstring" value="LATITUD_Y"/>
+                    <entry key="3" type="xstring" value="LONGITUD_X"/>
+                    <entry key="4" type="xstring" value="DPA_1"/>
+                    <entry key="5" type="xstring" value="DPA_2"/>
+                    <entry key="6" type="xstring" value="DPA_3"/>
+                    <entry key="7" type="xstring" value="PERIODO_2"/>
+                    <entry key="8" type="xstring" value="DIA_2"/>
+                    <entry key="9" type="xstring" value="MES_2"/>
+                    <entry key="10" type="xstring" value="AUTOMOVIL"/>
+                    <entry key="11" type="xstring" value="BICICLETA"/>
+                    <entry key="12" type="xstring" value="BUS"/>
+                    <entry key="13" type="xstring" value="CAMION"/>
+                    <entry key="14" type="xstring" value="CAMIONETA"/>
+                    <entry key="15" type="xstring" value="EMERGENCIAS"/>
+                    <entry key="16" type="xstring" value="ESPECIAL"/>
+                    <entry key="17" type="xstring" value="FURGONETA"/>
+                    <entry key="18" type="xstring" value="MOTOCICLETA"/>
+                    <entry key="19" type="xstring" value="NO_IDENTIFICADO"/>
+                    <entry key="20" type="xstring" value="SCOOTER_ELECTRICO"/>
+                    <entry key="21" type="xstring" value="TRICIMOTO"/>
+                    <entry key="22" type="xstring" value="VEHICULO_DEPORTIVO_UTILITARIO"/>
+                    <entry key="23" type="xstring" value="SUMA_DE_VEHICULOS"/>
+                    <entry key="24" type="xstring" value="EDAD_1"/>
+                </config>
+                <entry key="includeUnknownColumns" type="xboolean" value="false"/>
+            </config>
+            <config key="typeFilter">
+                <config key="selectedTypes">
+                    <entry key="array-size" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="variables"/>
+    <config key="view">
+        <entry key="maxRows" type="xint" value="2500"/>
+        <entry key="title" type="xstring" value="Stacked Area Chart"/>
+        <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
+        <config key="manualAxisLimits">
+            <entry key="min" type="xdouble" value="0.0"/>
+            <entry key="max" type="xdouble" value="100.0"/>
+        </config>
+        <entry key="customXAxisLabelV2" type="xstring" isnull="true" value=""/>
+        <entry key="customXAxisLabelV2_is_present" type="xboolean" value="false"/>
+        <entry key="customYAxisLabelV2" type="xstring" isnull="true" value=""/>
+        <entry key="customYAxisLabelV2_is_present" type="xboolean" value="false"/>
+        <entry key="showLegend" type="xboolean" value="true"/>
+        <entry key="lineSize" type="xint" value="2"/>
+        <entry key="showDataPointMarkers" type="xboolean" value="false"/>
+        <entry key="dataPointMarkerSize" type="xint" value="5"/>
+        <entry key="timeFormat" type="xstring" value=""/>
+        <entry key="allowImageDownload" type="xboolean" value="true"/>
+        <entry key="enableDataZoom" type="xboolean" value="true"/>
+        <entry key="showTooltip" type="xboolean" value="true"/>
+        <entry key="enableAnimation" type="xboolean" value="true"/>
+    </config>
+    <config key="view_variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.views.node.stackedareachart.StackedAreaChartNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Stacked Area Chart"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.views"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.5.0.v202506180755"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.views.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.5.0.v202506180755"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Input Table"/>
+        <config key="Output Image"/>
+    </config>
+    <entry key="name" type="xstring" value="Stacked Area Chart"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="internalObjects">
+        <entry key="location" type="xstring" value="internalTables"/>
+        <config key="content">
+            <config key="object_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_0"/>
+            </config>
+            <config key="object_1">
+                <entry key="index" type="xint" value="1"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_1"/>
+            </config>
+            <config key="object_2">
+                <entry key="index" type="xint" value="2"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_2"/>
+            </config>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="9bfb84ae-48c3-456d-8bb1-79e47a4533af"/>
+    </config>
+</config>
